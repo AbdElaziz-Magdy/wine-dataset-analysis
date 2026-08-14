@@ -1,4 +1,4 @@
-# Wine Dataset Analysis
+# Wine Dataset Analysis #
 
 # Project Overview
 
@@ -24,34 +24,36 @@ The dataset contains information about wines, including:
 - Price
 - Province
 - Region
-- Taster
+- Taster Name
 - Variety
 - Winery
 
-# Analysis
+# Data Analysis
 
 The project includes:
 
-- Data loading and exploration
-- Dataset structure and statistical overview
+- Data overview
+- Data types inspection
 - Missing values analysis
-- Data type inspection
-- Country and region analysis
-- Wine variety analysis
-- Winery analysis
-- Price analysis
-- Wine ratings analysis
-- Grouping and aggregation using Pandas
-
-# Project File
-
-- `wine-dataset-analysis.ipynb` — Jupyter Notebook containing the complete analysis.
-
-# Skills Demonstrated
-
-- Data analysis with Pandas
-- Data cleaning
-- Handling missing values
-- Data aggregation and grouping
 - Statistical analysis
-- Exploratory Data Analysis (EDA)
+- Categorical data analysis
+- Country analysis
+- Region analysis
+- Wine variety analysis
+- Price and points analysis
+
+# Data Cleaning
+
+The dataset was inspected for missing values and unnecessary columns.
+
+The `Unnamed: 0` column was removed as it represents an unnecessary index column.
+
+# Project Files
+
+- `wine-dataset-analysis.ipynb` — Jupyter Notebook containing the analysis.
+- `Wine_data.csv` — Dataset used in the project.
+- `.gitattributes` — Git LFS configuration for the large CSV file.
+
+# Conclusion
+
+This project demonstrates practical exploratory data analysis using Python, Pandas, and NumPy, with a focus on understanding wine data and identifying patterns in ratings, prices, countries, regions, and wine varieties.
